@@ -12,12 +12,16 @@ npm install https://github.com/romeobravo/pathfinder
 ## Examples
 
 ```js
-import pathfinder from 'pathfinder'
+import Pathfinder from 'pathfinder'
 
-pathfinder.init({
-  action: function(url) {
-    alert('navigation event')
-  }
+const CHANGE = 'change'
+
+pathfinder = new Pathfinder({
+  event: CHANGE
+})
+
+pathfinder.on(CHANGE, function() {
+  alert('navigation detected')
 })
 ```
 
