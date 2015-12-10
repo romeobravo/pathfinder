@@ -2,10 +2,7 @@
   "name": "pathfinder",
   "version": "0.1.1",
   "description": "npm pkg test",
-  "main": "pathfinder.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./pathfinder.js",
   "keywords": [
     "eventEmmitter",
     "history",
@@ -13,8 +10,5 @@
     "url"
   ],
   "author": "romeobravo",
-  "license": "MIT",
-  "dependencies": {
-    "events": "^1.1.0"
-  }
+  "license": "MIT"
 }

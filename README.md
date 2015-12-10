@@ -9,7 +9,7 @@ Pathfinder will emit an event or callback for all internal navigation and preven
 npm install https://github.com/romeobravo/pathfinder
 ```
 
-## Example
+## Examples
 
 ```js
 import pathfinder from 'pathfinder'
@@ -17,7 +17,8 @@ import pathfinder from 'pathfinder'
 pathfinder.init({
   action: function(url) {
     alert('navigation event')
-  },
-  CHANGE_EVENT: CHANGE_ROUTE
+  }
 })
 ```
+
+babel ./src/pathfinder.js --out-file ./lib/pathfinder.js --presets es2015
