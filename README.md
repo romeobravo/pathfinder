@@ -25,4 +25,4 @@ pathfinder.on(CHANGE, function() {
 })
 ```
 
-babel ./src/pathfinder.js --out-file ./lib/pathfinder.js --presets es2015
+babel ./pathfinder.js --out-file ./lib/pathfinder.js --presets es2015
