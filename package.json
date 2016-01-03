@@ -2,7 +2,7 @@
   "name": "pathfinder",
   "version": "0.1.1",
   "description": "pathfinder",
-  "main": "pathfinder.js",
+  "main": "lib/pathfinder.js",
   "keywords": [
     "events",
     "history",
@@ -16,7 +16,7 @@
     "babel-preset-es2015": "^6.3.13"
   },
   "scripts": {
-    "build": "babel lib --out-file pathfinder.js",
-    "prepublish": "babel lib --out-file pathfinder.js"
+    "build": "babel src --out-dir lib",
+    "prepublish": "babel src --out-dir lib"
   }
 }
